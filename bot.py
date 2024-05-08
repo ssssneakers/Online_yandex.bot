@@ -1,5 +1,5 @@
 import telebot
-from config import token, LOGS
+from config import LOGS
 from button import markup_menu, markup_SpechKit, markup_GPT
 from Gpt import ask_gpt
 from database import create_database, add_message, count_token, update_tokens, check_user, select_function
