@@ -1,6 +1,4 @@
-token = '6922861550:AAG6-PugcPBe68GTOQ3TcvgJtHlI9_rtLc0'
-iam_token = "t1.9euelZqUipCYyZfJlMmZiZSemI6UjO3rnpWay4qRyMiRipKTz5PMzJCRipvl9PcdVxZO-e8OJ2CY3fT3XQUUTvnvDidgmM3n9euelZqZnouYk4uSyZeLy4_Kk5Kble_8xeuelZqZnouYk4uSyZeLy4_Kk5Kblb3rnpWay5WOy8uXxsqbm8edjsaKlIm13oac0ZyQko-Ki5rRi5nSnJCSj4qLmtKSmouem56LntKMng.WJcoRkwlWftop5RdS5gjUkiyTgLqpvzs7zuvaADNSZ45w9JBJmY1S4OkzigRLyB2Zbb5erbx3YAmhAWO3QjhDQ"
-folder_id = 'b1gi3skn9nv4g8ggcto3'
+
 # путь к папке с проектом
 
 MAX_USERS = 3  # максимальное кол-во пользователей
