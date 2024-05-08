@@ -1,0 +1,2 @@
+2024-05-07 19:45:40,218 FILE: database.py IN: check_user MESSAGE: no such table: messages
+2024-05-07 19:45:45,022 FILE: database.py IN: add_message MESSAGE: UNIQUE constraint failed: messages.user_id
