@@ -12,11 +12,13 @@ MAX_USER_STT_BLOCKS = 5  # 10 аудиоблоков
 MAX_USER_TTS_SYMBOLS = 100  # 5 000 символов
 MAX_USER_GPT_TOKENS = 2000  # 2 000 токенов
 
-LOGS = 'logs.txt'  # файл для логов
-DB_FILE = 'messages.db'  # файл для базы данных
+ # файл для базы данных
 SYSTEM_PROMPT = 'Ты веселый собеседник.Давай наиболее понятный и самый краткий ответ' # список с системным промтом
 
-IAM_TOKEN_PATH = '/creds/aim_token.txt'
-FOLDER_ID_PATH = '/creds/folder_id.txt'
-BOT_TOKEN_PATH = '/creds/bot_token.txt'
-HOME_DIR = '/home/student/gpt_bot'  # путь к папке с проектом
+HOME_DIR = '/home/student/Online_yandex.bot'  # путь к папке с проектом
+LOGS = f'{HOME_DIR}/logs.txt'  # файл для логов
+DB_FILE = f'{HOME_DIR}/messages.db'  # файл для базы данных
+
+IAM_TOKEN_PATH = f'{HOME_DIR}/creds/iam_token.txt'  # файл для хранения iam_token
+FOLDER_ID_PATH = f'{HOME_DIR}/creds/folder_id.txt'  # файл для хранения folder_id
+BOT_TOKEN_PATH = f'{HOME_DIR}/creds/bot_token.txt'  # файл для хранения bot_token
