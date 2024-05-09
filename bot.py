@@ -8,7 +8,8 @@ import logging
 import math
 from creds import get_bot_token
 
-bot = telebot.TeleBot(get_bot_token())
+token = get_bot_token()
+bot = telebot.TeleBot(token)
 
 logging.basicConfig(filename=LOGS, level=logging.ERROR, format="%(asctime)s FILE: %(filename)s IN: %(funcName)s MESSAGE: %(message)s", filemode="w")
 
