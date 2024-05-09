@@ -263,7 +263,7 @@ def gpt_text(message):
         user_id = message.from_user.id
         token = count_token(user_id)
         txt, total_gpt_tokens, tts_symbols, stt_blocks = token
-        message += text
+        txt += text
         if total_gpt_tokens <= 0:
             bot.send_message(user_id, 'Ваш лимит токенов истек', reply_markup=markup_menu)
         else:
