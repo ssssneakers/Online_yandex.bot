@@ -1,1 +1,3 @@
-"bot_token": "6922861550:AAG6-PugcPBe68GTOQ3TcvgJtHlI9_rtLc0",
+{
+"bot_token": "6922861550:AAG6-PugcPBe68GTOQ3TcvgJtHlI9_rtLc0"
+}

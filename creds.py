@@ -11,7 +11,9 @@ logging.basicConfig(filename=LOGS, level=logging.INFO,
 
 def get_bot_token():
     with open(BOT_TOKEN_PATH, 'r') as f:
-        return f.read().strip()
+        file_data = json.load(f)
+        token = file_data["bot_token"]
+        return token
 
 
 def get_creds():
@@ -29,7 +31,8 @@ def get_creds():
         aim_token = file_data["access_token"]
 
     with open(FOLDER_ID_PATH, 'r') as f:
-        folder_id = f.read().strip()
+        file_d = json.load(f)
+        folder_id = file_d["folder_id"]
 
     return aim_token, folder_id
 
