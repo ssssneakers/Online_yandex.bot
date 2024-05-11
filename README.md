@@ -44,6 +44,12 @@
 - `Количество токенов` - Проверить оставшиеся лимиты токенов пользователя.
 - `/debug` - Отправляет файл логов ошибок.
 
+## Автор
+https://github.com/ssssneakers
+
+## Ссылки 
+- Гитхаб:https://github.com/ssssneakers/Online_yandex.bot/blob/main/creds.py
+- Бот телеграмм:https://t.me/gogsuperBot
 
 
 
